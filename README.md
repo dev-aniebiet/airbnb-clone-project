@@ -77,3 +77,16 @@ Reviews belongs to multiple Properties. A user can make multiple Reviews.
 * **User Authentication:** This allows registered users to gain access to the platform. It ensures that the user is who they say they are by providing their login details.
 * **User Authorization:** This permits the user access to certain endpoints based on their role. It protects the user data and provides a secure way of payment.
 * **Rate Limiting:** This prevents abuse of an endpoint due to multiple requests. It protects the database from being overworked.
+
+## CI/CD Pipeline
+A CI/CD pipeline is an automated process utilized by software development teams to streamline the creation, testing and deployment of applications. "CI" represents continuous integration, where developers frequently merge code changes into a central repository, allowing early detection of issues. "CD" refers to continuous deployment or continuous delivery, which automates the application's release to its intended environment, ensuring that it is readily available to users. This pipeline is vital for teams aiming to improve software quality and speed up delivery through regular, reliable updates.
+
+### Tools used for CI/CD
+* GitHub Actions
+* Jenkins
+* Docker
+* Kubernetes
+* CircleCI
+* Travis CI
+* AWS CodePipeline
+* Bamboo
