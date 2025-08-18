@@ -23,3 +23,39 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 * UI/UX designer: Creates user journeys for the best user experience and highest conversion rates
 * Software architect: An architect is an expert-level software engineer who makes executive software design decisions on behalf of an app development team.
 
+## Database Design
+### Key entities required
+```sql
+Users Table
+A user can have multiple properties, make multiple bookings, process payment and review multiple properties
+CREATE TABLE users (
+ id VARCHAR(255) PRIMARY KEY,
+ first_name VARCHAR(255) NOT NULL,
+ last_name VARCHAR(255) NOT NULL,
+ email VARCHAR(255) NOT NULL UNIQUE,
+ password VARCHAR(255) NOT NULL,
+ created_at TIMESTAMP NOT NULL,
+ updated_at TIMESTAMP NOT ULL
+)
+```
+
+```sql
+Properties Table
+One user can own multiple properties, Properties belong to one user. Booking belong to a Property.
+```
+
+```sql
+Bookings Table
+One Booking belong to One Property
+```
+
+```sql
+Payments Table
+A Payment belongs to One Property
+```
+
+```sql
+Reviews Table
+Reviews belongs to multiple Properties. A user can make multiple Reviews.
+```
+
