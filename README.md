@@ -2,7 +2,7 @@
 The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project provides understanding to complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
 
 ## ⚙️⚙️Technology Stack
-> - Python - A modern high-level programming language
+> - Python: A modern high-level programming language
 > - Django: A high-level Python web framework used for building the RESTful API.
 > - Django REST Framework: Provides tools for creating and managing RESTful APIs
 > - PostgreSQL: A powerful relational database used for data storage
